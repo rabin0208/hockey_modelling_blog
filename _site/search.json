@@ -1,0 +1,191 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This blog explores how data science and analytics are changing the way we understand hockey. In other words, it aims to make complex analytical concepts accessible to anyone who loves the sport."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Predicting NHL game outcomes using sports analytics",
+    "section": "",
+    "text": "Predicting NHL game outcomes using sports analytics\n\n\n\nhockey\n\nsports analytics\n\npredictions\n\n\n\n\n\n\n\n\n\nJan 13, 2026\n\n\nRabindranath Duran Pons\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/nhl-prediction/LAB_NOTES.html",
+    "href": "posts/nhl-prediction/LAB_NOTES.html",
+    "title": "DSCI 542 Lab 2 - Blog Post Notes",
+    "section": "",
+    "text": "Target Persona: A master’s-level student with foundational knowledge of data science, including statistics and basic machine learning, but limited familiarity with sports analytics or hockey specifically. They are comfortable interpreting data and models but may not understand how domain-specific features in sports are defined or used. Their motivation is to see how general data science techniques can be applied to a real-world problem outside of traditional datasets. Their goal is to understand how predictive modeling concepts translate into the context of hockey analytics.\n\n\n\nChoose one of these titles or create your own:\n\n✅ “Predicting NHL Game Outcomes: A Data Science Approach to Hockey Analytics” (Currently used)\n“From Data to Goals: Using Machine Learning to Forecast NHL Results”\n“Beyond the Ice: How Predictive Models Are Changing Hockey Analytics”\n“Skating Through the Data: A Practical Guide to NHL Game Prediction”\n“Machine Learning Meets Hockey: Predicting NHL Game Winners”\n\n\n\n\n\nLocation: posts/nhl-prediction/index.qmd\nCurrent Status: Outline created with structure\nTarget Length: 1200 words (±300 words)\nCurrent Length: ~1,800 words including notes and instructions\n\n\n\n\nFill in the sections: Each section has notes like “[Expand to X words…]” - replace these with your actual content\nAdd your name: Replace “Your Name” in the YAML front matter\nAdd code examples: If you have actual data or code, replace the example snippets\nAdd visualizations: Consider adding plots or tables to make it more engaging\nRemove the bracketed notes: Delete all the “[Expand to…]” instructions once you’ve written content\nAdd references: Include any sources you use\n\n\n\n\ncd /Users/rabin/Documents/courses/542_comm_arg/myblog\nquarto preview\n\n\n\nOption 1: Quarto Pub\nquarto publish quarto-pub\nOption 2: GitHub Pages\nquarto publish gh-pages\n\n\n\n\nBlog post is 1200 ±300 words (excluding code, captions, references)\nReplace “Your Name” with your actual name\nRemove all bracketed instruction notes\nAdd actual code examples if available\nBlog is published and link works\nSubmit .qmd file to Gradescope\nSubmit rendered .html or .pdf to Gradescope\nSubmit link to blog on Canvas for peer review\nInclude GitHub repository link\n\n\n\n\n\nCurrently the outline has placeholders. Here’s the target for each section:\n\nIntroduction: 150-200 words\nBackground: 200-250 words\nPrediction Problem: 150-200 words\nData and Features: 250-300 words\nModeling Approach: 250-300 words\nResults and Insights: 150-200 words\nConclusion: 100-150 words\n\nTotal Target: ~1,200-1,400 words"
+  },
+  {
+    "objectID": "posts/nhl-prediction/LAB_NOTES.html#question-1-audience-persona",
+    "href": "posts/nhl-prediction/LAB_NOTES.html#question-1-audience-persona",
+    "title": "DSCI 542 Lab 2 - Blog Post Notes",
+    "section": "",
+    "text": "Target Persona: A master’s-level student with foundational knowledge of data science, including statistics and basic machine learning, but limited familiarity with sports analytics or hockey specifically. They are comfortable interpreting data and models but may not understand how domain-specific features in sports are defined or used. Their motivation is to see how general data science techniques can be applied to a real-world problem outside of traditional datasets. Their goal is to understand how predictive modeling concepts translate into the context of hockey analytics."
+  },
+  {
+    "objectID": "posts/nhl-prediction/LAB_NOTES.html#question-1-proposed-titles",
+    "href": "posts/nhl-prediction/LAB_NOTES.html#question-1-proposed-titles",
+    "title": "DSCI 542 Lab 2 - Blog Post Notes",
+    "section": "",
+    "text": "Choose one of these titles or create your own:\n\n✅ “Predicting NHL Game Outcomes: A Data Science Approach to Hockey Analytics” (Currently used)\n“From Data to Goals: Using Machine Learning to Forecast NHL Results”\n“Beyond the Ice: How Predictive Models Are Changing Hockey Analytics”\n“Skating Through the Data: A Practical Guide to NHL Game Prediction”\n“Machine Learning Meets Hockey: Predicting NHL Game Winners”"
+  },
+  {
+    "objectID": "posts/nhl-prediction/LAB_NOTES.html#question-2-blog-post-status",
+    "href": "posts/nhl-prediction/LAB_NOTES.html#question-2-blog-post-status",
+    "title": "DSCI 542 Lab 2 - Blog Post Notes",
+    "section": "",
+    "text": "Location: posts/nhl-prediction/index.qmd\nCurrent Status: Outline created with structure\nTarget Length: 1200 words (±300 words)\nCurrent Length: ~1,800 words including notes and instructions\n\n\n\n\nFill in the sections: Each section has notes like “[Expand to X words…]” - replace these with your actual content\nAdd your name: Replace “Your Name” in the YAML front matter\nAdd code examples: If you have actual data or code, replace the example snippets\nAdd visualizations: Consider adding plots or tables to make it more engaging\nRemove the bracketed notes: Delete all the “[Expand to…]” instructions once you’ve written content\nAdd references: Include any sources you use\n\n\n\n\ncd /Users/rabin/Documents/courses/542_comm_arg/myblog\nquarto preview\n\n\n\nOption 1: Quarto Pub\nquarto publish quarto-pub\nOption 2: GitHub Pages\nquarto publish gh-pages\n\n\n\n\nBlog post is 1200 ±300 words (excluding code, captions, references)\nReplace “Your Name” with your actual name\nRemove all bracketed instruction notes\nAdd actual code examples if available\nBlog is published and link works\nSubmit .qmd file to Gradescope\nSubmit rendered .html or .pdf to Gradescope\nSubmit link to blog on Canvas for peer review\nInclude GitHub repository link"
+  },
+  {
+    "objectID": "posts/nhl-prediction/LAB_NOTES.html#word-count-tips",
+    "href": "posts/nhl-prediction/LAB_NOTES.html#word-count-tips",
+    "title": "DSCI 542 Lab 2 - Blog Post Notes",
+    "section": "",
+    "text": "Currently the outline has placeholders. Here’s the target for each section:\n\nIntroduction: 150-200 words\nBackground: 200-250 words\nPrediction Problem: 150-200 words\nData and Features: 250-300 words\nModeling Approach: 250-300 words\nResults and Insights: 150-200 words\nConclusion: 100-150 words\n\nTotal Target: ~1,200-1,400 words"
+  },
+  {
+    "objectID": "posts/nhl-prediction/index.html",
+    "href": "posts/nhl-prediction/index.html",
+    "title": "Predicting NHL game outcomes using sports analytics",
+    "section": "",
+    "text": "Picture this: It’s game day, and your favorite NHL team is about to face off against their rivals. You’re wondering, “Can my team win tonight?” Turns out, data scientists and hockey analysts are asking the same question and they’re using numbers to find the answer.\nEvery NHL season, fans, analysts, and even betting experts try to predict which teams will win, but what if we could make these predictions more accurate by looking at the numbers? That’s where hockey analytics comes in. Think of it like weather forecasting for sports: we use patterns from the past to make educated guesses about what might happen next.\nIn this post, I’ll walk you through how predictions work in hockey, what information we use, and why predicting sports is both fascinating and challenging. Don’t worry, no math background is needed.\nBy the end, you’ll understand how teams use data to get an edge, why even the best predictions can be wrong, and what makes hockey such an interesting and unpredictable sport to analyze."
+  },
+  {
+    "objectID": "posts/nhl-prediction/index.html#introduction",
+    "href": "posts/nhl-prediction/index.html#introduction",
+    "title": "Predicting NHL game outcomes using sports analytics",
+    "section": "",
+    "text": "Picture this: It’s game day, and your favorite NHL team is about to face off against their rivals. You’re wondering, “Can my team win tonight?” Turns out, data scientists and hockey analysts are asking the same question and they’re using numbers to find the answer.\nEvery NHL season, fans, analysts, and even betting experts try to predict which teams will win, but what if we could make these predictions more accurate by looking at the numbers? That’s where hockey analytics comes in. Think of it like weather forecasting for sports: we use patterns from the past to make educated guesses about what might happen next.\nIn this post, I’ll walk you through how predictions work in hockey, what information we use, and why predicting sports is both fascinating and challenging. Don’t worry, no math background is needed.\nBy the end, you’ll understand how teams use data to get an edge, why even the best predictions can be wrong, and what makes hockey such an interesting and unpredictable sport to analyze."
+  },
+  {
+    "objectID": "posts/nhl-prediction/index.html#background-hockey-analytics-101",
+    "href": "posts/nhl-prediction/index.html#background-hockey-analytics-101",
+    "title": "Predicting NHL game outcomes using sports analytics",
+    "section": "Background: Hockey Analytics 101",
+    "text": "Background: Hockey Analytics 101\nBefore diving into prediction models, it’s important to understand the key metrics used in hockey analytics. Unlike traditional machine learning datasets where features come pre-defined, sports analytics requires understanding the domain to engineer meaningful features.\nKey Hockey Statistics:\n\nGoals (G): The most straightforward metric - how many goals a team scores or allows\nShots on Goal (SOG): The number of shots that would score if not blocked by the goalie\nCorsi: A possession metric counting all shot attempts (shots on goal + missed shots + blocked shots)\nFenwick: Similar to Corsi but excludes blocked shots\nPDO: The sum of shooting percentage and save percentage, often used to identify “lucky” teams\nPower Play %: How effectively a team scores when they have a man advantage\nPenalty Kill %: How effectively a team defends when short-handed\n\nThese statistics form the foundation of modern hockey analytics. Unlike simpler classification problems, hockey data is inherently sequential (games happen over time), has strong temporal dependencies (team form matters), and includes both team-level and player-level features.\n[Expand to 200-250 words. Add more detail about why these metrics matter and how they differ from traditional ML features.]"
+  },
+  {
+    "objectID": "posts/nhl-prediction/index.html#the-prediction-problem",
+    "href": "posts/nhl-prediction/index.html#the-prediction-problem",
+    "title": "Predicting NHL game outcomes using sports analytics",
+    "section": "The Prediction Problem",
+    "text": "The Prediction Problem\nIn this analysis, we’re trying to predict the outcome of NHL games: which team will win? This is a binary classification problem, but it comes with several unique challenges:\nChallenges in Sports Prediction:\n\nSmall sample sizes: NHL teams only play 82 games per season\nHigh variance: Even the best teams lose to weaker opponents regularly\nTemporal dynamics: Team performance changes throughout the season due to injuries, trades, and momentum\nHome ice advantage: Location significantly impacts outcomes\nHead-to-head effects: Some teams match up better against specific opponents\n\nWhy This Problem Matters:\nBeyond the obvious applications for sports betting and fantasy sports, NHL prediction demonstrates key data science concepts that apply broadly:\n\nWorking with imbalanced time-series data\nFeature engineering from domain knowledge\nDealing with high variance and uncertainty\nModel evaluation when ground truth is stochastic\n\n[Expand to 150-200 words. Add more context about the specific prediction task and its challenges.]"
+  },
+  {
+    "objectID": "posts/nhl-prediction/index.html#data-and-features",
+    "href": "posts/nhl-prediction/index.html#data-and-features",
+    "title": "Predicting NHL game outcomes using sports analytics",
+    "section": "Data and Features",
+    "text": "Data and Features\n\nData Sources\nNHL game data is publicly available from several sources:\n\nNHL.com API: Official statistics for all games, teams, and players\nNatural Stat Trick: Advanced analytics and metrics\nHockey Reference: Historical data and traditional statistics\nEvolving Hockey: Player and team ratings, expected goals models\n\n\n\nFeature Engineering\nThe key to successful sports prediction is thoughtful feature engineering. Here are some categories of features we might use:\n1. Basic Statistics (per team) - Goals for/against per game - Shots for/against per game - Face-off win percentage - Power play and penalty kill percentages\n2. Advanced Metrics - Corsi/Fenwick for percentage (possession metrics) - PDO (shooting + save percentage) - Expected goals (xG) based on shot quality - Zone start percentages\n3. Situational Features - Home vs. away - Days of rest (back-to-back games?) - Strength of schedule - Recent form (last 5/10 games)\n4. Temporal Features - Point in season (early vs. late) - Playoff position (do teams have something to play for?)\n\n\nExample Data Exploration\n# Example: Loading and exploring NHL data\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Load sample game data (you would fetch this from NHL API)\n# games_df = pd.read_csv('nhl_games.csv')\n\n# Example features for a game\ngame_features = {\n    'home_goals_for_avg': 3.2,\n    'away_goals_for_avg': 2.8,\n    'home_corsi_for_pct': 52.3,\n    'away_corsi_for_pct': 48.7,\n    'home_days_rest': 2,\n    'away_days_rest': 1,\n    'home_win_streak': 3,\n    'away_win_streak': 0\n}\n\n# Feature importance and correlation analysis would go here\n[Expand to 250-300 words. Add actual code examples if you have data, or explain what the data pipeline would look like.]"
+  },
+  {
+    "objectID": "posts/nhl-prediction/index.html#modeling-approach",
+    "href": "posts/nhl-prediction/index.html#modeling-approach",
+    "title": "Predicting NHL game outcomes using sports analytics",
+    "section": "Modeling Approach",
+    "text": "Modeling Approach\n\nModel Selection\nFor NHL game prediction, several machine learning approaches can be effective:\n1. Logistic Regression - Simple, interpretable baseline - Works well with properly engineered features - Can include interaction terms for advanced tactics\n2. Random Forest - Handles non-linear relationships - Less prone to overfitting with small sample sizes - Provides feature importance rankings\n3. Gradient Boosting (XGBoost/LightGBM) - Often achieves best predictive performance - Can capture complex interactions between features - Requires careful tuning to avoid overfitting\n4. Neural Networks - Can learn feature interactions automatically - Requires more data to train effectively - May be overkill for this problem size\n\n\nTraining Strategy\nA critical consideration in sports prediction is temporal validation. Unlike traditional ML problems where we can randomly split data, we must respect the time ordering:\n# Example: Temporal train-test split\n# Train on seasons 2018-2022, test on 2023\n\n# NOT random split - this would leak future information!\n# train, test = train_test_split(data, test_size=0.2)\n\n# CORRECT: Time-based split\ntrain_data = data[data['season'] &lt; 2023]\ntest_data = data[data['season'] == 2023]\n\n\nEvaluation Metrics\nFor this binary classification problem, we care about:\n\nAccuracy: Overall correct predictions\nLog Loss: Penalizes confident wrong predictions\nBrier Score: Measures calibration of probability estimates\nROC-AUC: Discrimination ability across thresholds\n\nIn sports betting contexts, expected value matters more than raw accuracy - being 55% accurate can be profitable if you’re right on the uncertain games.\n[Expand to 250-300 words. Add more detail about model training, hyperparameter tuning, and why these choices matter.]"
+  },
+  {
+    "objectID": "posts/nhl-prediction/index.html#results-and-insights",
+    "href": "posts/nhl-prediction/index.html#results-and-insights",
+    "title": "Predicting NHL game outcomes using sports analytics",
+    "section": "Results and Insights",
+    "text": "Results and Insights\n\nModel Performance\n[Add your results here - for example:]\nAfter training our models on historical NHL data, we found:\n\nBaseline (home team always wins): ~55% accuracy\nLogistic Regression: ~58% accuracy\nRandom Forest: ~59% accuracy\nXGBoost: ~60% accuracy\n\nWhile a 60% accuracy might not sound impressive, it’s important to remember that NHL games have inherent randomness. Even the best teams only win about 70% of their games, and upsets are common.\n\n\nKey Insights\nWhat Worked: - Recent form (last 10 games) was highly predictive - Possession metrics (Corsi) outperformed simple goal-based stats - Home ice advantage is real and significant (~5% boost) - Days of rest matters, especially for back-to-back games\nWhat Didn’t Work: - Historical head-to-head records added little value - Player-level statistics didn’t improve team-level predictions much - Complex feature interactions weren’t necessary\nModel Limitations: - Cannot predict injuries or lineup changes - Playoff games behave differently than regular season - Model struggles with outlier performances (shutouts, blowouts) - Recency bias - model may overweight recent streaks\n[Expand to 150-200 words. Add specific numbers, visualizations, or examples from your analysis.]"
+  },
+  {
+    "objectID": "posts/nhl-prediction/index.html#conclusion",
+    "href": "posts/nhl-prediction/index.html#conclusion",
+    "title": "Predicting NHL game outcomes using sports analytics",
+    "section": "Conclusion",
+    "text": "Conclusion\nSo, can we predict NHL game outcomes? Yes, but not perfectly, and that’s actually a good thing.\nPredictions give us a way to understand the game better. They help us see which factors really matter (like rest days and home ice advantage) and which ones don’t (like historical head-to-head records). They give teams valuable insights for strategy and help fans appreciate the complexities of the sport.\nHowever, hockey will always have that element of unpredictability. The hot goalie, the lucky bounce, the underdog’s incredible effort, these are what make sports worth watching. Analytics doesn’t take away the magic, it just helps us understand and appreciate it more.\n\nKey Takeaways\n\nPredictions use team performance, game circumstances, and historical patterns to estimate win probabilities\nEven good predictions are only right about 60% of the time\nHome ice advantage, rest, and recent form all significantly impact outcomes\nThe unpredictability is part of what makes hockey great\n\nNext time you’re watching a game and the announcers mention analytics or win probability, you’ll know exactly what they’re talking about. And more importantly, you’ll understand why the game still needs to be played – because the numbers only tell part of the story."
+  },
+  {
+    "objectID": "posts/nhl-prediction/index.html#references",
+    "href": "posts/nhl-prediction/index.html#references",
+    "title": "Predicting NHL game outcomes using sports analytics",
+    "section": "References",
+    "text": "References\n[Add your references here, for example:]\n\nNatural Stat Trick: https://www.naturalstattrick.com/\nEvolving Hockey: https://evolving-hockey.com/\nNHL API Documentation: https://gitlab.com/dword4/nhlapi\n[Add academic papers or other sources you reference]"
+  },
+  {
+    "objectID": "about.html#about-this-blog",
+    "href": "about.html#about-this-blog",
+    "title": "About",
+    "section": "",
+    "text": "This blog explores how data science and analytics are changing the way we understand hockey. In other words, it aims to make complex analytical concepts accessible to anyone who loves the sport."
+  },
+  {
+    "objectID": "about.html#who-this-blog-is-for",
+    "href": "about.html#who-this-blog-is-for",
+    "title": "About",
+    "section": "Who This Blog Is For",
+    "text": "Who This Blog Is For\nThis blog is written for hockey fans and sports enthusiasts who:\n\nAre curious about how analytics work in sports\nHave heard terms like machine learning or predictive modeling but don’t know what they mean\nWant to understand hockey analytics without needing a technical background\nAre interested in how teams use data to make better decisions\n\nNo math degree required just curiosity and a love for the game!"
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "About Me",
+    "text": "About Me\nI’m a Master of Data Science student who loves sports. This blog is where I explore how analytics and data science are changing the game we love explained in a way that doesn’t require a math degree.\nMy goal is simple: make sports analytics accessible and interesting for everyone. No jargon, no complex equations, just clear explanations of how data helps us understand hockey better.\nThanks for stopping by, and let’s talk hockey!"
+  },
+  {
+    "objectID": "posts/nhl-prediction/index.html#introduction-1",
+    "href": "posts/nhl-prediction/index.html#introduction-1",
+    "title": "Predicting NHL game outcomes using sports analytics",
+    "section": "Introduction",
+    "text": "Introduction\nPicture this: It’s game day, and your favorite NHL team is about to face off against their rivals. You’re wondering, “Do we have a shot at winning tonight?” Turns out, data scientists and hockey analysts are asking the same question – and they’re using numbers to find the answer.\nEvery NHL season, fans, analysts, and even betting experts try to predict which teams will win. But what if we could make these predictions more accurate by looking at the numbers? That’s where hockey analytics comes in. Think of it like weather forecasting for sports: we use patterns from the past to make educated guesses about what might happen next.\nIn this post, I’ll walk you through how predictions work in hockey, what information we use, and why predicting sports is both fascinating and challenging. Don’t worry – you won’t need any math background. I’ll explain everything in plain language, just like we’re chatting about the game over coffee.\nBy the end, you’ll understand how teams use data to gain an edge, why even the best predictions can be wrong, and what makes hockey such an interesting (and unpredictable) sport to analyze. ## Background: Hockey Analytics 101\nBefore diving into prediction models, it’s important to understand the key metrics used in hockey analytics. Unlike traditional machine learning datasets where features come pre-defined, sports analytics requires understanding the domain to engineer meaningful features.\nKey Hockey Statistics:\n\nGoals (G): The most straightforward metric - how many goals a team scores or allows\nShots on Goal (SOG): The number of shots that would score if not blocked by the goalie\nCorsi: A possession metric counting all shot attempts (shots on goal + missed shots + blocked shots)\nFenwick: Similar to Corsi but excludes blocked shots\nPDO: The sum of shooting percentage and save percentage, often used to identify “lucky” teams\nPower Play %: How effectively a team scores when they have a man advantage\nPenalty Kill %: How effectively a team defends when short-handed\n\nThese statistics form the foundation of modern hockey analytics. Unlike simpler classification problems, hockey data is inherently sequential (games happen over time), has strong temporal dependencies (team form matters), and includes both team-level and player-level features.\n[Expand to 200-250 words. Add more detail about why these metrics matter and how they differ from traditional ML features.]"
+  },
+  {
+    "objectID": "posts/nhl-prediction/index.html#how-do-predictions-actually-work",
+    "href": "posts/nhl-prediction/index.html#how-do-predictions-actually-work",
+    "title": "Predicting NHL game outcomes using sports analytics",
+    "section": "How Do Predictions Actually Work?",
+    "text": "How Do Predictions Actually Work?\nHere’s where the data science comes in.\n\nIt’s Like a Scoring System\nImagine you’re trying to decide who’ll win a game between Team A and Team B. You might mentally give Team A points for being at home (+1), having won their last 3 games (+1), and having their star goalie playing (+1). Meanwhile, Team B is on the road (-1), lost their last game (-1), but they historically play well against Team A (+1).\nPrediction models work similarly, but instead of using feelings and background knowledge, a computer looks at thousands of past games and learns which factors actually matter. It creates a scoring system that weighs all these different pieces of information.\n\n\nProbabilities, Not Guarantees\nHere’s the crucial part: predictions aren’t about saying “Team A will definitely win.” Instead, they give us probabilities. For example, “Team A has a 65% chance of winning.”\nWhat does 65% mean? Think of it this way: if these two teams played 100 times under the exact same conditions, we’d expect Team A to win about 65 of those games. But Team B still wins 35 of them! That’s why upsets happen, and why hockey is exciting to watch.\n\n\nLearning from history\nThe prediction system learns by looking at thousands of past games. It notices patterns like “teams coming off back-to-back games win only 45% of the time” or “home teams with winning streaks win 62% of the time.” It combines all these patterns to make its best guess about tonight’s game.\nThe key is understanding that we’re dealing with probabilities, not certainties. Even a team with a 90% chance to win will still lose 1 out of 10 times."
+  },
+  {
+    "objectID": "posts/nhl-prediction/index.html#why-this-matters",
+    "href": "posts/nhl-prediction/index.html#why-this-matters",
+    "title": "Predicting NHL game outcomes using sports analytics",
+    "section": "Why This Matters",
+    "text": "Why This Matters\nYou might be wondering: “If predictions are only right 60% of the time, what’s the point?” Great question!\n\nFor Teams and Coaches\nTeams use these predictions and the analysis behind them to make strategic decisions:\n\nShould we rest our star players tonight against a weaker opponent?\nWhich matchups favor us, and which should we be worried about?\nAre we actually improving, or have we just been lucky lately?\n\nHaving objective data helps coaches make smarter decisions rather than relying only on gut feelings.\n\n\nFor Fans\nUnderstanding predictions makes watching games more interesting. Instead of just hoping your team wins, you can:\n\nUnderstand why tonight’s game might be tough (playing on the road with no rest)\nAppreciate when your team pulls off an upset against the odds\nHave smarter conversations about your team’s actual performance vs. just lucky wins\n\n\n\nFor the Future of the Sport\nAs analytics get better, they’re changing how teams evaluate players, make trades, and develop strategies. The teams that use data well alongside traditional scouting have a real competitive advantage.\nBut here’s the beautiful part: no matter how good the analytics get, they’ll never take away the excitement and unpredictability that makes hockey great. The underdog can still win, the hot goalie can still steal a game, and that’s why we watch."
+  },
+  {
+    "objectID": "posts/nhl-prediction/index.html#quick-reference-key-terms",
+    "href": "posts/nhl-prediction/index.html#quick-reference-key-terms",
+    "title": "Predicting NHL game outcomes using sports analytics",
+    "section": "Quick Reference: Key Terms",
+    "text": "Quick Reference: Key Terms\nWin Probability: The estimated chance (shown as a percentage) that a team will win based on the available information.\nHome Ice Advantage: The statistical boost home teams get from playing in their own arena (usually about 5% better chance of winning).\nRecent Form: How a team has performed in their last several games, which often predicts how they’ll play in the next game.\nBack-to-Back Games: When a team plays two games on consecutive nights, which typically makes them more tired and less likely to win the second game.\nAnalytics: Using data and statistics to understand and predict sports outcomes."
+  },
+  {
+    "objectID": "posts/nhl-prediction/index.html#want-to-learn-more",
+    "href": "posts/nhl-prediction/index.html#want-to-learn-more",
+    "title": "Predicting NHL game outcomes using sports analytics",
+    "section": "Want to Learn More?",
+    "text": "Want to Learn More?\nIf you’re interested in diving deeper into hockey analytics, here are some great resources:\n\nNatural Stat Trick (naturalstattrick.com): Detailed hockey statistics and analytics\nThe Athletic: In-depth sports journalism with analytics coverage\nHockey Reference (hockey-reference.com): Historical hockey statistics\n\nWant to see these concepts in action? I’ve created a machine learning model that predicts NHL game outcomes using the techniques discussed in this post. You can explore the code, see how features are created, and even run predictions yourself at my GitHub repository."
+  },
+  {
+    "objectID": "posts/nhl-prediction/index.html#what-can-go-wrong",
+    "href": "posts/nhl-prediction/index.html#what-can-go-wrong",
+    "title": "Predicting NHL game outcomes using sports analytics",
+    "section": "What Can Go Wrong?",
+    "text": "What Can Go Wrong?\nEven with all this data and smart predictions, hockey remains beautifully unpredictable. Here’s why:\n\nInjuries and Surprises\nYour prediction model might give a team a 70% chance to win, but what if their best player gets injured in warmups? Or the backup goalie has to start unexpectedly? These last-minute changes can flip everything.\nThe model can’t account for things it doesn’t know about yet.\n\n\nTeams Have Bad Nights (and Good Ones)\nEven the best teams have games where nothing goes right. Passes miss, shots hit the post, the bounces don’t go your way. Meanwhile, underdogs sometimes play the game of their lives. That’s the human element of sports that numbers can’t fully capture.\n\n\nThe small sample problem\nNHL teams only play 82 games a season. That might sound like a lot, but for statistical analysis, it’s actually pretty small. A team could go on a 5-game winning streak just by luck, not because they’ve suddenly become a powerhouse. The model has to figure out what’s real improvement and what’s just randomness.\nThis is why even the best prediction systems are only right about 60% of the time – and why we love watching the games!"
+  }
+]

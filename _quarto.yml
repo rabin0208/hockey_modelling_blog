@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Predicting NHL game outcomes using sports analytics"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/rabin0208
+      - icon: linkedin
+        href: https://www.linkedin.com/in/rabindranath-duran-pons-1682591ab/
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+
+
+

@@ -1,0 +1,20 @@
+{
+  "posts/post-with-code/index.qmd": {
+    "index.html": "f284999d"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "d782b98c"
+  },
+  "index.qmd": {
+    "index.html": "aa9f33ee"
+  },
+  "about.qmd": {
+    "about.html": "cc2fcb66"
+  },
+  "posts/nhl-prediction/LAB_NOTES.md": {
+    "LAB_NOTES.html": "e40a7ba5"
+  },
+  "posts/nhl-prediction/index.qmd": {
+    "index.html": "077733cb"
+  }
+}

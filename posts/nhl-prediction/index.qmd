@@ -1,0 +1,130 @@
+---
+title: "Predicting NHL game outcomes using sports analytics"
+author: "Rabindranath Duran Pons"
+date: "2026-01-13"
+categories: [hockey, sports analytics, predictions]
+draft: false
+---
+
+## Introduction
+
+Picture this: It's game day, and your favorite NHL team is about to face off against their rivals. You're wondering, "Can my team win tonight?" Turns out, data scientists and hockey analysts are asking the same question and they're using numbers to find the answer.
+
+Every NHL season, fans, analysts, and even betting experts try to predict which teams will win, but what if we could make these predictions more accurate by looking at the numbers? That's where hockey analytics comes in. Think of it like weather forecasting for sports: we use patterns from the past to make educated guesses about what might happen next.
+
+In this post, I'll walk you through how predictions work in hockey, what information we use, and why predicting sports is both fascinating and challenging. Don't worry, no math background is needed.
+
+By the end, you'll understand how teams use data to get an edge, why even the best predictions can be wrong, and what makes hockey such an interesting and unpredictable sport to analyze.
+
+## How Do Predictions Actually Work?
+
+Here's where the data science comes in.
+
+### It's Like a Scoring System
+
+Imagine you're trying to decide who'll win a game between Team A and Team B. You might mentally give Team A points for being at home (+1), having won their last 3 games (+1), and having their star goalie playing (+1). Meanwhile, Team B is on the road (-1), lost their last game (-1), but they historically play well against Team A (+1).
+
+Prediction models work similarly, but instead of using feelings and background knowledge, a computer looks at thousands of past games and learns which factors actually matter. It creates a scoring system that weighs all these different pieces of information.
+
+### Probabilities, Not Guarantees
+
+Here's the crucial part: predictions aren't about saying "Team A will definitely win." Instead, they give us probabilities. For example, "Team A has a 65% chance of winning."
+
+What does 65% mean? Think of it this way: if these two teams played 100 times under the exact same conditions, we'd expect Team A to win about 65 of those games. But Team B still wins 35 of them! That's why upsets happen, and why hockey is exciting to watch.
+
+### Learning from history
+
+The prediction system learns by looking at thousands of past games. It notices patterns like "teams coming off back-to-back games win only 45% of the time" or "home teams with winning streaks win 62% of the time." It combines all these patterns to make its best guess about tonight's game.
+
+The key is understanding that we're dealing with probabilities, not certainties. Even a team with a 90% chance to win will still lose 1 out of 10 times.
+
+## What Can Go Wrong?
+
+Even with all this data and smart predictions, hockey remains beautifully unpredictable. Here's why:
+
+### Injuries and Surprises
+
+Your prediction model might give a team a 70% chance to win, but what if their best player gets injured in warmups? Or the backup goalie has to start unexpectedly? These last-minute changes can flip everything.
+
+The model can't account for things it doesn't know about yet.
+
+### Teams Have Bad Nights (and Good Ones)
+
+Even the best teams have games where nothing goes right. Passes miss, shots hit the post, the bounces don't go your way. Meanwhile, underdogs sometimes play the game of their lives. That's the human element of sports that numbers can't fully capture.
+
+### The small sample problem
+
+NHL teams only play 82 games a season. That might sound like a lot, but for statistical analysis, it's actually pretty small. A team could go on a 5-game winning streak just by luck, not because they've suddenly become a powerhouse. The model has to figure out what's real improvement and what's just randomness.
+
+This is why even the best prediction systems are only right about 60% of the time – and why we love watching the games!
+
+## Why This Matters
+
+You might be wondering: "If predictions are only right 60% of the time, what's the point?" Great question!
+
+### For Teams and Coaches
+
+Teams use these predictions and the analysis behind them to make strategic decisions:
+
+- Should we rest our star players tonight against a weaker opponent?
+
+- Which matchups favor us, and which should we be worried about?
+
+- Are we actually improving, or have we just been lucky lately?
+
+Having objective data helps coaches make smarter decisions rather than relying only on gut feelings.
+
+### For Fans
+
+Understanding predictions makes watching games more interesting. Instead of just hoping your team wins, you can:
+
+- Understand why tonight's game might be tough (playing on the road with no rest)
+
+- Appreciate when your team pulls off an upset against the odds
+
+- Have smarter conversations about your team's actual performance vs. just lucky wins
+
+### For the Future of the Sport
+
+As analytics get better, they're changing how teams evaluate players, make trades, and develop strategies. The teams that use data well alongside traditional scouting have a real competitive advantage.
+
+But here's the beautiful part: no matter how good the analytics get, they'll never take away the excitement and unpredictability that makes hockey great. The underdog can still win, the hot goalie can still steal a game, and that's why we watch.
+
+## Conclusion
+
+So, can we predict NHL game outcomes? Yes, but not perfectly, and that's actually a good thing.
+
+Predictions give us a way to understand the game better. They help us see which factors really matter (like rest days and home ice advantage) and which ones don't (like historical head-to-head records). They give teams valuable insights for strategy and help fans appreciate the complexities of the sport.
+
+However, hockey will always have that element of unpredictability. The hot goalie, the lucky bounce, the underdog's incredible effort, these are what make sports worth watching. Analytics doesn't take away the magic, it just helps us understand and appreciate it more.
+
+### Key Takeaways
+
+- Predictions use team performance, game circumstances, and historical patterns to estimate win probabilities
+- Even good predictions are only right about 60% of the time
+- Home ice advantage, rest, and recent form all significantly impact outcomes
+- The unpredictability is part of what makes hockey great
+
+Next time you're watching a game and the announcers mention analytics or win probability, you'll know exactly what they're talking about. And more importantly, you'll understand why the game still needs to be played – because the numbers only tell part of the story.
+
+## Quick Reference: Key Terms
+
+**Win Probability**: The estimated chance (shown as a percentage) that a team will win based on the available information.
+
+**Home Ice Advantage**: The statistical boost home teams get from playing in their own arena (usually about 5% better chance of winning).
+
+**Recent Form**: How a team has performed in their last several games, which often predicts how they'll play in the next game.
+
+**Back-to-Back Games**: When a team plays two games on consecutive nights, which typically makes them more tired and less likely to win the second game.
+
+**Analytics**: Using data and statistics to understand and predict sports outcomes.
+
+## Want to Learn More?
+
+If you're interested in diving deeper into hockey analytics, here are some great resources:
+
+- **Natural Stat Trick** (naturalstattrick.com): Detailed hockey statistics and analytics
+- **The Athletic**: In-depth sports journalism with analytics coverage
+- **Hockey Reference** (hockey-reference.com): Historical hockey statistics
+
+**Want to see these concepts in action?** I've created a machine learning model that predicts NHL game outcomes using the techniques discussed in this post. You can explore the code, see how features are created, and even run predictions yourself at [my GitHub repository](https://github.com/rabin0208/hockey_modelling_moneyline).

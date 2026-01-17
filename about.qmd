@@ -1,0 +1,37 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/rabindranath-duran-pons-1682591ab/
+    - icon: github
+      text: Github
+      href: https://github.com/rabin0208
+
+---
+
+## About This Blog
+
+This blog explores how data science and analytics are changing the way we understand hockey. In other words, it aims to make complex analytical concepts accessible to anyone who loves the sport.
+
+## Who This Blog Is For
+
+This blog is written for hockey fans and sports enthusiasts who:
+
+- Are curious about how analytics work in sports
+- Have heard terms like machine learning or predictive modeling but don't know what they mean
+- Want to understand hockey analytics without needing a technical background
+- Are interested in how teams use data to make better decisions
+
+No math degree required just curiosity and a love for the game!
+
+## About Me
+
+I'm a Master of Data Science student who loves sports. This blog is where I explore how analytics and data science are changing the game we love explained in a way that doesn't require a math degree.
+
+My goal is simple: make sports analytics accessible and interesting for everyone. No jargon, no complex equations, just clear explanations of how data helps us understand hockey better.
+
+Thanks for stopping by, and let's talk hockey!
